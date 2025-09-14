@@ -85,17 +85,6 @@ GetItDone/
       
       └─ icon128.png   # Store / large display
 
-# File Roles
-
-- manifest.json → Defines extension settings (permissions, scripts, icons)
-
-- popup.html → The small interface you see when clicking the extension icon
-  
-- popup.js → Handles user interactions (add, remove, store tasks)
-  
-- background.js → Manages alarms and notifications even when popup is closed
-  
-- icons/ → Provides the images used as extension icons and in notifications
 
  # How It Works
 
