@@ -17,13 +17,13 @@ This extension can help you:
 ✔ Get reminders without needing a heavy app
 #  Key Features
 
-Add and manage tasks directly from the popup
+- Add and manage tasks directly from the popup
 
-Automatic saving with Chrome Storage API (tasks persist even if you close the browser)
+- Automatic saving with Chrome Storage API (tasks persist even if you close the browser)
 
-Custom notifications for upcoming tasks (using Alarms + Notifications API)
+- Custom notifications for upcoming tasks (using Alarms + Notifications API)
 
-Minimal UI so you can focus on what needs to be done
+- Minimal UI so you can focus on what needs to be done
 
 
 # Getting Started
@@ -31,13 +31,13 @@ Minimal UI so you can focus on what needs to be done
 
 Works on any Chromium-based browser:
 
--Google Chrome
+- Google Chrome
 
--Microsoft Edge
+- Microsoft Edge
 
--Brave
+- Brave
 
--Opera
+- Opera
 
 
 # Installing the Extension
@@ -112,7 +112,8 @@ GetItDone/
 If you face issues or have suggestions, feel free to contact me.
 
 📧 Contact: [zeeshan.techgeek123@gmail.com]
-🐙 GitHub: [ZeeshanAhmad008]
+
+ GitHub: [ZeeshanAhmad008]
 
 # Author
 Zeeshan Ahmad (@ZeeshanAhmad008)
@@ -120,9 +121,11 @@ Zeeshan Ahmad (@ZeeshanAhmad008)
 # Version History
 
 1.0
-Initial release
-Added task saving with Chrome Storage
-Added reminders via Notifications & Alarms
+- Initial release
+
+- Added task saving with Chrome Storage
+
+- Added reminders via Notifications & Alarms
 
 # License
 
