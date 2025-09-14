@@ -7,6 +7,14 @@ A simple Chrome extension to organize daily tasks with smart reminders. (video d
 I often keep forgetting small tasks or deadlines when I’m busy on my computer. To solve this, I built Get-It-Done — a Chrome Extension that lets you quickly add tasks, save them locally, and get timely notifications when a task is due.
 
 This project was created to improve personal productivity, act as a lightweight to-do manager, and demonstrate how Chrome Extensions can be built with HTML, CSS, and JavaScript.
+
+This extension can help you:
+
+✔ Stay organized
+
+✔ Remember important deadlines
+
+✔ Get reminders without needing a heavy app
 #  Key Features
 
 Add and manage tasks directly from the popup
@@ -17,12 +25,6 @@ Custom notifications for upcoming tasks (using Alarms + Notifications API)
 
 Minimal UI so you can focus on what needs to be done
 
-This extension can help you:
-✔ Stay organized
-
-✔ Remember important deadlines
-
-✔ Get reminders without needing a heavy app
 
 # Getting Started
  Dependencies
@@ -66,6 +68,7 @@ Step 10: Start using the extension
 
 # Project Structure
 GetItDone/
+
  ├─ manifest.json      # Extension config file (name, permissions, icons, scripts
  
  ├─ popup.html         # The extension’s popup UI (task input & task list)
@@ -85,24 +88,24 @@ GetItDone/
 # File Roles
 
 - manifest.json → Defines extension settings (permissions, scripts, icons)
-- 
+
 - popup.html → The small interface you see when clicking the extension icon
-- 
+  
 - popup.js → Handles user interactions (add, remove, store tasks)
-- 
+  
 - background.js → Manages alarms and notifications even when popup is closed
-- 
+  
 - icons/ → Provides the images used as extension icons and in notifications
 
  # How It Works
 
 - Add tasks in the popup
-- 
- -Each task is saved in browser storage
   
--Alarms trigger based on due times
+- Each task is saved in browser storage
+  
+- Alarms trigger based on due times
 
--Notifications pop up to remind you
+- Notifications pop up to remind you
 
 # Help
 
