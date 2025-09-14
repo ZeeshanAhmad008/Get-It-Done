@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Get It Done</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Get It Done</h1>
+
+  <section class="bucket" id="todayBucket">
+    <h2>Today</h2>
+    <ul id="todayList"></ul>
+    <div class="add-row">
+      <input id="todayInput" placeholder="Add today's task">
+      <input id="todayTime" type="time" />
+      <button id="addToday">Add</button>
+    </div>
+  </section>
+
+  <section class="bucket" id="tomorrowBucket">
+    <h2>Tomorrow</h2>
+    <ul id="tomorrowList"></ul>
+    <div class="add-row">
+      <input id="tomorrowInput" placeholder="Add tomorrow's task">
+      <input id="tomorrowTime" type="time" />
+      <button id="addTomorrow">Add</button>
+      <button id="clearTomorrow" class="small">Clear Tomorrow</button>
+    </div>
+  </section>
+
+  <section class="bucket" id="dayAfterBucket">
+    <h2>Day After Tomorrow</h2>
+    <ul id="dayAfterList"></ul>
+    <div class="add-row">
+      <input id="dayAfterInput" placeholder="Add day-after-tomorrow task">
+      <input id="dayAfterTime" type="time" />
+      <button id="addDayAfter">Add</button>
+      <button id="clearDayAfter" class="small">Clear Day After</button>
+    </div>
+  </section>
+
+  <div class="footer">
+    <button id="openSettings" class="small">Reset All</button>
+    <span class="note">Reminders: hourly for unscheduled tasks · Scheduled time for timed tasks · 21:00 shift time</span>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
